@@ -172,3 +172,5 @@ class Application(object):
             _ = system('cls')
         else:
             _ = system('clear')
+
+Application().main()
