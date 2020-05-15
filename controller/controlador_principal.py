@@ -15,7 +15,6 @@ class ControladorPrincipal(object):
 
         # Instanciem la finestra general
         self._window = Tk()
-        self._window.geometry('800x600')
         self._window.resizable(0, 0)
         # Instaciem el frame dels menus i el possem dintre del list de frames
         menu_list = ["0. Sortir", "1. Menú Competicions", "2. Menú Jutges"]
